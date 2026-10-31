@@ -22,6 +22,7 @@ https://cdn.jsdelivr.net/gh/sysnet4admin/assets@main/<경로>
 
 - 파일의 경로와 이름을 바꾸지 않는다. 바꾸면 이미 여러 페이지에 들어간 주소로 그림이 보이지 않는다. 그림을 수정할 때는 같은 경로에 덮어쓴다.
 - 그림을 수정한 뒤에는 jsDelivr 캐시를 비운다. `https://purge.jsdelivr.net/gh/sysnet4admin/assets@main/<경로>`를 열면 된다.
+- 캐시를 비워도 그림을 이미 본 브라우저는 최대 7일 동안 예전 그림을 보여 준다(jsDelivr의 `cache-control: max-age=604800`). 바뀐 그림은 시크릿 창에서 확인한다.
 
 ## 저작권
 
